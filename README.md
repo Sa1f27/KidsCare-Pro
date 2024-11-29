@@ -5,7 +5,7 @@
 ## Key Features
 - **ML-Driven Health Predictions**: 95% accurate health predictions based on child data.
 - **User Authentication**: Secure login for parents and doctors using AWS Cognito.
-- **Health Predictor**: Input symptoms for personalized AI-Health insights.
+- **Health Predictor**: Used  Fine-tuned Llamma model on medical data for medical advise.
 - **Appointments**: Book healthcare appointments easily.
 - **Dashboard**: Visualized health insights and trends.
 - **Child Profile Management**: Store and manage child health records.
