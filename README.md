@@ -8,7 +8,7 @@
 - **Health Predictor**: Used  Fine-tuned Llamma model on medical data for medical advise.
 - **Appointments**: Book healthcare appointments easily.
 - **Dashboard**: Visualized health insights and trends.
-- **Child Profile Management**: Store and manage child health records.
+- **Child Profile Management**: Store and manage child health records with AWS DynamoDB.
 - **Milestones Tracking**: Track developmental milestones for timely intervention.
 - **Doctor's Portal**: Tools for healthcare providers to manage child profiles.
 
