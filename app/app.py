@@ -48,53 +48,6 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-# # AWS DynamoDB Configuration
-# DYNAMODB_TABLE = "ChildHealthRecords"
-
-# def initialize_aws_clients():
-#     session = boto3.Session(
-#         aws_access_key_id=st.secrets["AWS_ACCESS_KEY"],
-#         aws_secret_access_key=st.secrets["AWS_SECRET_KEY"],
-#         region_name=st.secrets["AWS_REGION"]
-#     )
-#     dynamodb = session.resource('dynamodb')
-#     return dynamodb
-
-# # Initialize DynamoDB
-# dynamodb = initialize_aws_clients()
-# table = dynamodb.Table(DYNAMODB_TABLE)
-
-# AI Integration
-# def get_health_suggestions(child_data):
-#     """
-#     Generate personalized health suggestions based on child data
-#     """
-#     age = child_data.get('Age', 0)
-#     weight = child_data.get('Weight', 0)
-#     height = child_data.get('Height', 0)
-#     bmi = weight / ((height/100) ** 2)
-    
-#     suggestions = []
-    
-#     # Basic health suggestions
-#     if bmi > 25:
-#         suggestions.append("Consider increasing physical activity and maintaining a balanced diet.")
-#     elif bmi < 18.5:
-#         suggestions.append("Focus on nutrient-rich foods to support healthy weight gain.")
-        
-#     # Age-specific suggestions
-#     if age < 5:
-#         suggestions.append("Ensure regular vaccination schedule is followed.")
-#         suggestions.append("Focus on developmental activities like puzzles and physical play.")
-#     elif 5 <= age < 12:
-#         suggestions.append("Encourage team sports and social activities.")
-#         suggestions.append("Maintain regular sleep schedule (9-11 hours per night).")
-#     else:
-#         suggestions.append("Support physical and emotional development through varied activities.")
-#         suggestions.append("Monitor screen time and encourage outdoor activities.")
-        
-#     return suggestions
-
 def login_page():
     st.sidebar.title("Login")
     username = st.sidebar.text_input("Username")
