@@ -19,7 +19,6 @@
 - **Data Visualization**: Matplotlib, Seaborn, Plotly
 - **AWS**: Cognito (User Authentication), DynamoDB (Data Storage), Boto3 (AWS SDK)
 - **Image Processing**: Pillow
-- **Navigation**: `streamlit_option_menu`
 
 1. ![389246845-d4ebcd36-8031-4827-a4c2-63903e0bdcdb](https://github.com/user-attachments/assets/d0547268-c7a5-4c9e-bedb-4d790bffd2be)
 2. ![389246847-3df819b0-b3a7-48ca-9640-f4e431b8998b](https://github.com/user-attachments/assets/cd30dffb-ecab-41e4-a1b2-a9b16a8f1974)
